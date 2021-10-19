@@ -1,0 +1,21 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "primera practica con npm",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "supervisor app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint app.js"
+  },
+  "author": "Daniel Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "mocha": "^9.1.3"
+  }
+}
